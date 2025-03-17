@@ -5,8 +5,11 @@ public class p36_ValidSudoku  {
     public static boolean isValidSudoku(char[][] board) {
         int n = 9;
         // making the hashmaps
+        @SuppressWarnings("unchecked")
         HashSet<Character>[] rows = new HashSet[n];
+        @SuppressWarnings("unchecked")
         HashSet<Character>[] cols = new HashSet[n];
+        @SuppressWarnings("unchecked")
         HashSet<Character>[] boxes = new HashSet[n];
 
         for (int r = 0; r < n; r++) {
