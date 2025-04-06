@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class p42_MatrixRotation {
+public class p48_MatrixRotation {
     public static void rotate(int[][] matrix) {
         int n = matrix.length;
 
